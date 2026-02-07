@@ -5,7 +5,7 @@
 
 # Installation
 
-Open the Github webpage to play the game. This game was made with Unity and exported for WebGL.
+Open the Github webpage to play the game: https://unitygamestudio.github.io/Corruption-Game/ . This game was made with Unity and exported for WebGL.
 
 ---
 
