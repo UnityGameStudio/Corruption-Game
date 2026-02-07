@@ -3,6 +3,8 @@
 
 > We do not share any political opinion, this game is only a satiric game with educational, entertainment, and arts purposes. 
 
+> This is a free game. But it would be nice to have your support on our channel: https://www.youtube.com/@UnityGameStudio
+
 # Installation
 
 Open the Github webpage to play the game: https://unitygamestudio.github.io/Corruption-Game/ . This game was made with Unity and exported for WebGL.
@@ -31,4 +33,6 @@ The content is not intended to replace or compete with the original works, nor t
 
 This project is not affiliated with, endorsed by, or representative of any real individuals, organizations, or political entities. 
 
-Certain art backgrounds have been created with Chatgpt. 
+# AI Art
+
+Certain art backgrounds have been created with Chatgpt. We support art made by human, so if you want to re-do the art, send us a message in youtube. You will receive credits in the Game. 
