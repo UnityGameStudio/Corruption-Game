@@ -1,4 +1,4 @@
-# Corruption Game
+# Corruption Game (Beta Version)
 > Work in Progress. Certain bugs may appear. 
 
 > We do not share any political opinion, this game is only a satiric game with educational, entertainment, and arts purposes. 
