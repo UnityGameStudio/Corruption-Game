@@ -15,9 +15,6 @@
     font-family: Arial, sans-serif;
   }
 
-  #unity-container {
-    background-color: #000;
-  }
 
   /* Optional: center everything nicely */
   body {
@@ -52,6 +49,23 @@
     line-height: 1.4;
     opacity: 0.85;
   }
+
+  /* #unity-footer {
+  width: 100%;
+  background: rgba(17, 17, 17, 0.2);;
+  padding: 10px 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  color: #ccc;
+  box-sizing: border-box; 
+}
+
+#unity-container {
+  background-color: #000;
+  margin-bottom: 60px; /* prevents overlap with footer */
+
 </style>
   </head>
   <body>
@@ -67,9 +81,23 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ThePolitician</div>
+        <div id="unity-build-title">The Politician</div>
       </div>
     </div>
+    <!-- <div id="unity-container" class="unity-desktop">
+  <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+  <div id="unity-loading-bar">
+    <div id="unity-logo"></div>
+    <div id="unity-progress-bar-empty">
+      <div id="unity-progress-bar-full"></div>
+    </div>
+  </div>
+  <div id="unity-warning"></div>
+</div>
+ <footer id="unity-footer">
+  <div id="unity-fullscreen-button"></div>
+  <div id="unity-build-title">Full Screen</div>
+</footer> --> 
     <script>
 
       var container = document.querySelector("#unity-container");
