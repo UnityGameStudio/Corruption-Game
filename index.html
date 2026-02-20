@@ -50,18 +50,19 @@
     opacity: 0.85;
   }
 
-  #unity-footer {
-  width: 100%;
-  background: rgba(17, 17, 17, 0.2);;
-  padding: 10px 0;
+#unity-footer {
+  position: absolute;       /* overlay on top of the canvas */
+  top: 10px;                /* distance from top */
+  left: 10px;              /* distance from right */
   display: flex;
-  justify-content: right;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+  background: rgba(17, 17, 17, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
   color: #ccc;
-  box-sizing: border-box; 
+  z-index: 10;              /* make sure it’s on top */
 }
-
 #unity-container {
   background-color: #000;
   margin-bottom: 60px; 
@@ -79,11 +80,12 @@
     </div>
   </div>
   <div id="unity-warning"></div>
+    <footer id="unity-footer">
+    <div id="unity-fullscreen-button"></div>
+    <div id="unity-build-title">Full Screen</div>
+  </footer> 
 </div>
- <footer id="unity-footer">
-  <div id="unity-fullscreen-button"></div>
-  <div id="unity-build-title">Full Screen</div>
-</footer> 
+
     <script>
 
       var container = document.querySelector("#unity-container");
